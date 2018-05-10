@@ -17,6 +17,6 @@ class Transfer
     if valid? && @status = "pending"
       @sender -= @amount
       @receiver += @amount
-      
+      @status = "complete"
   end
 end
