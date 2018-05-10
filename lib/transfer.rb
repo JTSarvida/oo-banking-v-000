@@ -18,5 +18,6 @@ class Transfer
       @sender -= @amount
       @receiver += @amount
       @status = "complete"
+    end
   end
 end
